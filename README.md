@@ -1,5 +1,5 @@
 # Part-2-web-development
-produced a solitary style. All HTML pages are connected to a CSS file.
+All HTML pages are linked to my CSS file.
 
  To make it easier to maintain, all prior inline style was transferred to the external CSS file.
 

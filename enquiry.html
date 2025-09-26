@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Request Plumbing Service</h2>
+    <p>Fill out the form below and our team will get back to you as quickly as possible:</p>
+
+    <form class="enquiry-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="service">Service Needed:</label>
+      <select id="service" name="service" required>
+        <option value="">-- Select Service --</option>
+        <option value="emergency">Emergency</option>
+        <option value="general">General Plumbing</option>
+        <option value="waterheater">Water Heater</option>
+        <option value="gasline">Gas Line</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="date">Preferred Date & Time:</label>
+      <input type="text" id="date" name="date" placeholder="e.g. March 5, 2:00 PM">
+
+      <label for="details">Additional Details:</label>
+      <textarea id="details" name="details" rows="4"></textarea>
+
+      <button type="submit">Submit Enquiry</button>
+    </form>
+
+    <p class="note">
+      We aim to respond to all enquiries within 24 hours. <br>
+      For emergencies, please call us directly at <b>(925) 706-8694</b>.
+    </p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pro Plumber Services, Inc.</p>
+  </footer>
+</body>
+</html>
